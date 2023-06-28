@@ -1,0 +1,26 @@
+body {
+  min-height: 2000px;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #8a2be2;
+}
+
+#project {
+  background-color: #8a2be2;
+}
+
+section {
+  padding-top: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: aliceblue;
+  background-color: red;
+  border-radius: 10px;
+}
