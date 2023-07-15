@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- Bootstrap Icon -->
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css">
 
@@ -52,10 +55,10 @@
     <section class="jumbotron text-center text-white">
         <img src="img/april.jpg" alt="Setiana April" width="200" class="rounded-circle img-thumbnail">
         <h1 class="display-4">Setiana April</h1>
-        <p><a href="http://www.instagram.com/allaboutian.jpg" class="text-white"><i class="bi bi-instagram"></i></a>&nbsp;
-            <a href="https://api.whatsapp.com/send/?phone=6282129017341" class="text-white"><i class="bi bi-whatsapp"></i></a>&nbsp;
-          <a href="https://www.facebook.com/terhubung.setiana" class="text-white"><i class="bi bi-facebook"></i></a></p>
-        <p class="lead">FrontEnd Dev | Pengangguran</p>
+        <p><a href="http://www.instagram.com/allaboutian.jpg" class="text-white" target="_blank"><i class="bi bi-instagram"></i></a>&nbsp;
+            <a href="https://api.whatsapp.com/send/?phone=6282129017341" class="text-white" target="_blank"><i class="bi bi-whatsapp"></i></a>&nbsp;
+          <a href="https://www.facebook.com/terhubung.setiana" class="text-white" target="_blank"><i class="bi bi-facebook"></i></a></p>
+        <p class="lead"></p>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L34.3,176C68.6,160,137,128,206,133.3C274.3,139,343,181,411,176C480,171,549,117,617,112C685.7,107,754,149,823,170.7C891.4,192,960,192,1029,160C1097.1,128,1166,64,1234,42.7C1302.9,21,1371,43,1406,53.3L1440,64L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
     </section>
     <!-- Akhir Jumbotro -->
@@ -63,16 +66,16 @@
     <!-- About -->
     <section id="about">
         <div class="container">
-            <div class="row text-center mb-5">
+            <div class="row text-center mb-5" data-aos="fade-down-right" data-aos-duration="1000">
                 <div class="col">
                     <h2> About Me</h2>
                 </div>
             </div>
             <div class="row justify-content-center fs-5 text-center">
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="fade-right" data-aos-duration="1000">
                     <p>Halo Nama Saya Setiana April, Saya Seorang FrontEnd Developer Dan Ini Adalah Website Portfolio Pertama Buatan Saya</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
                     <p>Silahkan Ikuti Semua Social Media Saya Agar Kita Bisa Berteman >_< </p>
                 </div>
             </div>
@@ -84,33 +87,33 @@
     <!-- Project -->
     <section id="project">
         <div class="container">
-            <div class="row text-center text-white mb-5">
+            <div class="row text-center text-white mb-5" data-aos="zoom-in-up">
                 <div class="col">
                     <h2>My Project</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500">
                         <img src="img/project/picek.jpg" class="card-img-top" alt="Project 1">
                         <div class="card-body">
-                          <p class="card-text">Belum Ada Project Jadi Pake Foto Waifu Dulu :v</p>
+                          <p class="card-text">Belum Ada Project Jadi Pake Foto Waifu Dulu</p>
                         </div>
                       </div>
                 </div>
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
                     <div class="card">
                         <img src="img/project/istrigue.jpg" class="card-img-top" alt="Project 2">
                         <div class="card-body">
-                          <p class="card-text">Belum Ada Project Jadi Pake Foto Waifu Dulu :v</p>
+                          <p class="card-text">Belum Ada Project Jadi Pake Foto Waifu Dulu</p>
                         </div>
                       </div>
                 </div>
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
                     <div class="card">
                         <img src="img/project/animeistri.jpg" class="card-img-top" alt="Project 3">
                         <div class="card-body">
-                          <p class="card-text">Belum Ada Project Jadi Pake Foto Waifu Dulu :v</p>
+                          <p class="card-text">Belum Ada Project Jadi Pake Foto Waifu Dulu</p>
                         </div>
                       </div>
                 </div>
@@ -121,30 +124,61 @@
     </section>
     <!-- Akhir Project -->
 
+    <!-- Framework -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-5" data-aos="fade-down">
+          <div class="col">
+              <h2>Framework</h2>
+          </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-2 mb-3" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="100">
+            <img src="img/gallery/thumbnail/html.png" alt="Gambar1" class="img-fluid gallery-img">
+        </div>
+        <div class="col-md-2 mb-3" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="200">
+            <img src="img/gallery/thumbnail/css.png" alt="Gambar2" class="img-fluid gallery-img">
+        </div>
+        <div class="col-md-2 mb-3" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300">
+            <img src="img/gallery/thumbnail/js.png" alt="Gambar3" class="img-fluid gallery-img">
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- akhir framework -->
+<br><br><br>
     <!-- Contact -->
     <section id="contact">
     <div class="container">
-        <div class="row text-center mb-3">
+        <div class="row text-center mb-3" data-aos="zoom-out-down">
             <div class="col">
                 <h2>Contact Me</h2>
             </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" data-aos="fade-right">
             <div class="col-md-6">
-                <form>
+              <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+                <strong>Thanks a lot!</strong> Pesan anda sudah terkirim.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>
+                <form name="portfolio-contact-form">
                     <div class="mb-3">
                       <label for="name" class="form-label">Nama Lengkap</label>
-                      <input type="text" class="form-control" id="name" aria-describedby="name">
+                      <input type="text" class="form-control" id="name" aria-describedby="name" name="nama">
                       </div>
                     <div class="mb-3">
                       <label for="email" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="email" aria-describedby="email">
+                      <input type="email" class="form-control" id="email" aria-describedby="email" name="email">
                       </div>
                       <div class="mb-3">
                         <label for="pesan" class="form-label">Pesan</label>
-                        <textarea class="form-control" id="pesan" rows="3"></textarea>
+                        <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
                       </div>
-                      <button type="submit" class="btn btn-success">Kirim</button>
+                      <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+                      <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                        <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                        Loading...
+                      </button>
                   </form>
             </div>
         </div>
@@ -161,5 +195,52 @@
     <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    const galleryImage = document.querySelectorAll('.gallery.img');
+    
+   galleryImage.forEach((img, i) => {
+    img.dataset.aos = 'fade-down';
+   })
+    AOS.init();
+  </script>
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+<script>
+  gsap.registerPlugin(TextPlugin);
+  gsap.to('.lead', {duration: 2, delay: 1.5, text: 'Hello I am FrontEnd Developer.'});
+  gsap.from('.jumbotron img', {duration: 1, y: '-100', opacity: 0, ease: 'bounce'});
+  gsap.from('.navbar', {duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce'});
+  gsap.from('.display-4', {duration: 1.5, x: '-50', opacity: 0, delay: 0.5, ease: 'back'});
+</script>
+<!-- akhir GSAP -->
+
+<!-- akhir aos -->
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwdQq4Q2fa3xqNTE808cBcVKj5J6KG1GpACP-wcmSJRL4DhoJbiwdO6jPlbFJT2id1P/exec'
+      const form = document.forms['portfolio-contact-form'];
+
+      const btnKirim = document.querySelector('.btn-kirim');
+      const btnLoading = document.querySelector('.btn-loading');
+      const myAlert = document.querySelector('.my-alert');
+
+      form.addEventListener('submit', e => {
+        e.preventDefault();
+
+        btnLoading.classList.toggle('d-none');
+        btnKirim.classList.toggle('d-none');
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            btnLoading.classList.toggle('d-none');
+            btnKirim.classList.toggle('d-none');
+            myAlert.classList.toggle('d-none');
+            form.reset();
+            console.log('Success!', response);
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
   </body>
 </html>

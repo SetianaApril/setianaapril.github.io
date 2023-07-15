@@ -1,5 +1,7 @@
 body {
   min-height: 2000px;
+  background-color: #fff; /* Light mode background color */
+  color: #000; /* Light mode text color */
 }
 
 .jumbotron {
@@ -23,4 +25,14 @@ a:hover {
   color: aliceblue;
   background-color: red;
   border-radius: 10px;
+}
+
+.gallery-img {
+width: 50vh;
+padding: 0;
+display: inline-block;
+}
+
+#gallery .row > * {
+  padding: 0;
 }
